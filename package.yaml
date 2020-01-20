@@ -28,6 +28,8 @@ ghc-options:
 
 library:
   source-dirs: src
+  dependencies:
+  - scotty
 
 executables:
   bbm-shorturls-exe:
@@ -50,3 +52,8 @@ tests:
     - -with-rtsopts=-N
     dependencies:
     - bbm-shorturls
+    - hspec
+    - hspec-wai
+    - scotty
+    - wai
+
