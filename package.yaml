@@ -30,6 +30,8 @@ library:
   source-dirs: src
   dependencies:
   - scotty
+  - http-types
+  - text
 
 executables:
   bbm-shorturls-exe:
